@@ -7,8 +7,8 @@
 			
 			/* Basic CSS comment */	
 			body {
-				background: rgb(3, 0, 0);
-				color: white;
+				background: rgb(247, 247, 247);
+				color: rgb(20, 2, 2);
 				width: 960px;
 				margin: 0 auto;
                 font-size: 50px;
@@ -19,7 +19,7 @@
 
 			h1 {
 				font-size: 80px;
-				color: rgb(228, 228, 228)	;
+				color: rgb(27, 3, 3)	;
 			}
 
 		</style>
@@ -27,16 +27,9 @@
             /*this is an event
             alert("I am annoying");*/
 
-            var firstname= "Shuvo"
-            var lastname = "Miah"
-            var fullname = firstname + " " + lastname
-            
-            var a= 1;
-            var b= 2;
-            var c= a+b;
-
-            document.write("<h1>" + firstname+lastname + "</h1>");
-            document.write("<h1>" + fullname + "</h1>");
+            var username= prompt();
+           
+            document.write("<h1>Hello " + username + "!</h1>");
             document.write("<h1>" + c + "</h1>");
             
         </script>
